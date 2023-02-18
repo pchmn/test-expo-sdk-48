@@ -12,13 +12,23 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "api_key"
+      },
+      "bundleIdentifier": "com.pchmn.testexposdk48"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "api_key"
+        }
+      },
+      "package": "com.pchmn.testexposdk48"
     },
     "web": {
       "favicon": "./assets/favicon.png"
